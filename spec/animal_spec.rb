@@ -59,6 +59,5 @@ describe Animal do
     expected = {party_tricks: [play_dead] , not_party_tricks: [sit, down]}
 
     expect(animal.categorize_commands).to eq(expected)
-   end 
-
+    end 
 end
